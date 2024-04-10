@@ -7,20 +7,20 @@
     <!-- TODO FIX FAVICON -->
     <link rel="icon" href="favicon.ico" />
   </head>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#attendance">Attendance</a></li>
-        <li><a href="#agenda">Agenda</a></li>
-        <li>
-          <a href="#questions">Remaining Questions / Comments / Concerns</a>
-        </li>
-        <li><a href="#recordings">Video and Audio Recording</a></li>
-      </ul>
-    </nav>
-    <hr />
-  </header>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li>
+            <a href="#questions">Remaining Questions / Comments / Concerns</a>
+          </li>
+          <li><a href="#recordings">Video and Audio Recording</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
     <h1>Pomodoro Timer</h1>
     <h3>Topic: Brainstorm</h3>
     <h3>Date: April 10, 2024</h3>
@@ -37,11 +37,11 @@
     </section>
     <section id="agenda">
       <h2>Agenda</h2>
-      <p2
-        >The purpose of today's meeting is to brainstorm ideas for our Pomodoro
+      <p>
+        The purpose of today's meeting is to brainstorm ideas for our Pomodoro
         timer app. We want to discuss who our customers are, what the app will
-        do, what it will look like, and more.</p2
-      >
+        do, what it will look like, and more.
+      </p>
       <h4><u>Old Business</u></h4>
       <p>
         We need to finish introductions for those who missed our last meeting.
@@ -67,6 +67,7 @@
         generated with <b>AI</b>:
       </p>
       <img
+        alt="tomato diagram"
         src="images/craiyon_125727_A_whiteboard_filled_with_brainstorming_for_an_app_that_sells_tomatos.png"
       />
     </section>
@@ -110,22 +111,22 @@
       <form id="form">
         <fieldset>
           <legend>Part A</legend>
-          <input type="checkbox" id="check1" name="checkgroup">
+          <input type="checkbox" id="check1" name="checkgroup" />
           <label for="check1">type 1</label>
-          <input type="checkbox" id="check2" name="checkgroup">
+          <input type="checkbox" id="check2" name="checkgroup" />
           <label for="check2">type 2</label>
 
-          <input type="radio" id="radio1" name="radiogroup">
+          <input type="radio" id="radio1" name="radiogroup" />
           <label for="radio1">type A</label>
-          <input type="radio" id="radio2" name="radiogroup">
+          <input type="radio" id="radio2" name="radiogroup" />
           <label for="radio2">typeB</label>
 
-          <input type="text">
+          <input type="text" />
         </fieldset>
         <fieldset>
           <legend>Part B</legend>
-          <input type="date">
-          <input list="choose-tomato"/>
+          <input type="date" />
+          <input list="choose-tomato" />
           <datalist id="choose-tomato">
             <option value="1 tomato"></option>
             <option value="2 tomato"></option>
@@ -136,8 +137,8 @@
         <button form="form" type="submit">Submit to nothing</button>
       </form>
     </section>
+    <footer>
+      <p>This site is the property of Pomodoroilovetomatosinc</p>
+    </footer>
   </body>
-  <footer>
-    <p>This site is the property of Pomodoroilovetomatosinc</p>
-  </footer>
 </html>
