@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Published Site](https://dyc-github.github.io/CSE110_Lab2_Starter/)
+# Lab Week 3 - CSS and Agile Intro
+[Published Site](https://dyc-github.github.io/sp24-cse110-lab3)
